@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 4. **Set Up Environment Variables**
 - Create a .env file in the project root
-- Add your Gemini API key and auto-send preference
+- Add your Gemini API key and auto-send preference. 
 
 ```bash
 echo "GEMINI_API_KEY=your_google_gemini_api_key" >> .env
