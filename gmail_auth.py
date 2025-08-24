@@ -30,5 +30,6 @@ def gmail_service():
     return service
 
 if __name__ == "__main__":
+    
     s = gmail_service()
     print("✅ Gmail service ready.")
