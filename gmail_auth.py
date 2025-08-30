@@ -26,7 +26,7 @@ def gmail_service():
         with open("token.json", "w") as f:
             f.write(creds.to_json())
 
-    service = build("gmail", "v1", credentials=creds)
+    service = build("gmail", "v1",  credentials=creds)
     return service
 
 if __name__ == "__main__":
