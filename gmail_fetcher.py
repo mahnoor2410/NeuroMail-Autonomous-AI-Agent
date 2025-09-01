@@ -14,7 +14,7 @@ def _safe_b64decode(s):
         s += "=" * (4 - padding)
     return base64.b64decode(s) # Decode to bytes
 
-# ================================================================
+# ===============================================================
 
 def _get_body_from_payload(payload):
     """
