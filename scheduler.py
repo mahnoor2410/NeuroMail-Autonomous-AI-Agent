@@ -12,6 +12,7 @@ if __name__ == "__main__":
     print("Scheduler started. Press Ctrl+C to stop.")
     # run one immediately
     job()
+    
     while True:
         schedule.run_pending()
         time.sleep(1)
